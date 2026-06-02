@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /dashboard/
+Disallow: /config/
+
+# Block system files
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemap (important for SEO)
+Sitemap: https://grgnishes.com.np/sitemap.xml
